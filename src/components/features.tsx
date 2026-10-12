@@ -91,7 +91,7 @@ const FeatureTab = (props: FeatureTabProps) => {
       {props.selected && (
         <motion.div
           style={{ maskImage }}
-          className="-m-px absolute inset-0 rounded-xl border border-[#A369FF]"
+          className="absolute inset-0 -m-px rounded-xl border border-[#A369FF]"
         />
       )}
       <div className="inline-flex size-12 items-center justify-center rounded-lg border border-muted">

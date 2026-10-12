@@ -40,7 +40,7 @@ export function LogoTicker() {
                 duration: 30,
                 ease: "linear",
               }}
-              className="-translate-x-1/2 flex flex-none gap-14 pr-14"
+              className="flex flex-none -translate-x-1/2 gap-14 pr-14"
             >
               {[...COMPANIES, ...COMPANIES].map((company, index) => (
                 <Image

@@ -35,7 +35,7 @@ export function HeroSection() {
     >
       <div className="absolute inset-0 bg-[radial-gradient(75%_75%_at_center_center,rgb(140,69,255,0.5)_15%,rgb(14,0,36,0.5)_78%,transparent)]" />
       {/* Planet Logic */}
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute top-1/2 left-1/2 size-64 rounded-full border border-white/20 bg-[radial-gradient(50%_50%_at_16.8%_18.3%,white,rgb(184,148,255)_37.7%,rgb(24,0,66))] bg-purple-500 shadow-[-20px_-20px_50px_rgb(255,255,255,0.5),-20px_-20px_80px_rgb(255,255,255,0.1),0_0_50px_rgb(140,69,255)] md:size-96" />
+      <div className="absolute top-1/2 left-1/2 size-64 -translate-x-1/2 -translate-y-1/2 rounded-full border border-white/20 bg-[radial-gradient(50%_50%_at_16.8%_18.3%,white,rgb(184,148,255)_37.7%,rgb(24,0,66))] bg-purple-500 shadow-[-20px_-20px_50px_rgb(255,255,255,0.5),-20px_-20px_80px_rgb(255,255,255,0.1),0_0_50px_rgb(140,69,255)] md:size-96" />
       {/* Rings and Mini planets Logic */}
       <motion.div
         animate={{ rotate: "1turn" }}
@@ -44,11 +44,11 @@ export function HeroSection() {
           repeat: Number.POSITIVE_INFINITY,
           ease: "linear",
         }}
-        className="-translate-x-1/2 -translate-y-1/2 absolute top-1/2 left-1/2 size-[344px] rounded-full border border-white opacity-20 md:size-[580px]"
+        className="absolute top-1/2 left-1/2 size-[344px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-white opacity-20 md:size-[580px]"
       >
-        <div className="-translate-x-1/2 -translate-y-1/2 absolute top-1/2 left-0 size-2 rounded-full bg-white" />
-        <div className="-translate-x-1/2 -translate-y-1/2 absolute top-0 left-1/2 size-2 rounded-full bg-white" />
-        <div className="-translate-x-1/2 -translate-y-1/2 absolute top-1/2 left-full inline-flex size-5 items-center justify-center rounded-full border border-white">
+        <div className="absolute top-1/2 left-0 size-2 -translate-x-1/2 -translate-y-1/2 rounded-full bg-white" />
+        <div className="absolute top-0 left-1/2 size-2 -translate-x-1/2 -translate-y-1/2 rounded-full bg-white" />
+        <div className="absolute top-1/2 left-full inline-flex size-5 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-white">
           <div className="size-2 rounded-full bg-white" />
         </div>
       </motion.div>
@@ -59,7 +59,7 @@ export function HeroSection() {
           repeat: Number.POSITIVE_INFINITY,
           ease: "linear",
         }}
-        className="-translate-x-1/2 -translate-y-1/2 absolute top-1/2 left-1/2 size-[444px] rounded-full border border-white/20 border-dashed md:size-[780px]"
+        className="absolute top-1/2 left-1/2 size-[444px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-white/20 border-dashed md:size-[780px]"
       />
       <motion.div
         animate={{ rotate: "1turn" }}
@@ -68,10 +68,10 @@ export function HeroSection() {
           repeat: Number.POSITIVE_INFINITY,
           ease: "linear",
         }}
-        className="-translate-x-1/2 -translate-y-1/2 absolute top-1/2 left-1/2 size-[544px] rounded-full border border-white opacity-20 md:size-[980px]"
+        className="absolute top-1/2 left-1/2 size-[544px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-white opacity-20 md:size-[980px]"
       >
-        <div className="-translate-x-1/2 -translate-y-1/2 absolute top-1/2 left-0 size-2 rounded-full bg-white" />
-        <div className="-translate-x-1/2 -translate-y-1/2 absolute top-1/2 left-full size-2 rounded-full bg-white" />
+        <div className="absolute top-1/2 left-0 size-2 -translate-x-1/2 -translate-y-1/2 rounded-full bg-white" />
+        <div className="absolute top-1/2 left-full size-2 -translate-x-1/2 -translate-y-1/2 rounded-full bg-white" />
       </motion.div>
       {/* Hero Section Content Logic */}
       <div className="container relative mt-16">
